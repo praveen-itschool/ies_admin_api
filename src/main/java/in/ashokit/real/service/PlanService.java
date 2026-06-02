@@ -7,9 +7,11 @@ import in.ashokit.real.binding.PlanForm;
 public interface PlanService {
 	public boolean createPlan(PlanForm planForm);
 
-	public List<PlanForm> getPlans();
-
+	//public List<PlanForm> getPlans();
+public List<PlanForm> getPlans();
 	public PlanForm getEditPlanById(Integer Id);
 
-	public String changePlanStatus(Integer planId, String status);
+	//public String changePlanStatus(Integer planId, String status);
+public String changePlanStatus(Integer planId, String status);
+
 }
